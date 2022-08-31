@@ -26,12 +26,14 @@ export default function NavBar(){
                     <img src="/images/icon-hamburger.svg"alt ="" />
                 </div>
                 {showMenu && 
-                <div>
+                <div className='mobile-nav'>
                 <ul>
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/services">Services</Link></li>
                         <li><Link href="/projects">Projects</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <div className='contact'>
+                            <li><Link href="/contact">Contact</Link></li>
+                        </div>
                     </ul>
                 </div>
                 }

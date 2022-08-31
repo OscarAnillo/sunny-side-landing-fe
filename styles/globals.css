@@ -27,10 +27,51 @@ body {
   justify-content: space-between;
   position: relative;
   top: 30px;
+  padding-bottom: 2em;
 }
 
 .nav-row .desktop-nav {
   display: none;
+}
+
+.nav-row .mobile-nav {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  text-align: center;
+}
+.mobile-nav::before {
+  content: '';
+  position: absolute;
+  top: -1.25rem;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-width: 0.625rem;
+  border-style: solid;
+  border-color: transparent #fff #fff transparent;
+}
+.nav-row .mobile-nav li {
+  margin: 2em 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav-row .about {
+  color: red;
+}
+.nav-row .contact {
+  width: 50%;
+  margin: auto;
+}
+.nav-row .contact li {
+  background-color: hsl(51, 100%, 49%);
+  padding: 1em;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
 }
 
 /* Hero Component */
