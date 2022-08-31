@@ -16,18 +16,27 @@ body {
 
 /* NavBar Component */
 .section-nav {
-  border: 1px solid red;
   width: 90%;
   margin: auto;
+  position: relative;
+  height: 0px;
 }
 .nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  top: 30px;
 }
-.nav-row img {
-  border: 1px solid red;
-}
+
 .nav-row .desktop-nav {
   display: none;
+}
+
+/* Hero Component */
+.bg-hero {
+  background-image: url('/images/mobile/image-header.jpg');
+  background-position: center bottom;
+  background-size: contain;
+  height: 530px;
 }
