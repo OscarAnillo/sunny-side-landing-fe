@@ -560,63 +560,18 @@ footer h1 {
 
 @media(min-width: 1000px){
   /* NavBar Component */
-  .section-nav {
-    width: 90%;
-    margin: auto;
-    position: relative;
-    height: 0px;
-  }
-
   .nav-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    top: 40px;
-    padding-bottom: 0px;
-  }
-
-  .nav-row .desktop-nav {
-    display: block;
-  }
-
-  .nav-row .desktop-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .nav-row .menu {
-    display: none;
-  }
-
-  .nav-row .mobile-nav {
-    display: none;
+    top: 50px;
   }
 
   .nav-row .desktop-nav li {
-    font-size: 18px;
-    margin-left: 1em;
-  }
-
-  .desktop-nav .contact {
-    background-color: #fff;
-    padding: 1em 1.5em;
-    border: none;
-    border-radius: 50px;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    text-transform: uppercase;
+    margin-left: 4em;
   }
 
   /* Hero Component */
   .bg-hero {
     background-image: url('/images/desktop/image-header.jpg');
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-    z-index: 1;
+    height: 1000px;
   }
 
   .hero-title {
@@ -626,8 +581,10 @@ footer h1 {
   }
 
   .hero-title h1 {
-    font-size: 3rem;
-    padding-bottom: 1.8em;
+    font-size: 4rem;
+    padding-bottom: 1.3em;
+    font-weight: 900;
+    letter-spacing: 20px;
   }
 
   /* Transform Component */
