@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import HeroComponent from '../components/hero-component';
 import NavBar from '../components/navBar-component';
+import Product from '../components/product';
+import Testimonials from '../components/testimonials';
 import Transform from '../components/transform';
 
 
@@ -18,6 +20,8 @@ export default function Home() {
 
       <main>
          <Transform /> 
+         <Product />
+         <Testimonials />
       </main>    
     </div>
   )

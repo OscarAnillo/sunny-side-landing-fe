@@ -93,6 +93,8 @@ img {
   left: 15%;
   transform: translate(-15%, 25%);
   text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
 }
 .hero-title h1 {
   color: #fff;
@@ -110,7 +112,7 @@ img {
   margin: 70px 0 45px 0;
   font-size: 2.3rem;
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 .transform p {
   width: 88%;
@@ -127,7 +129,7 @@ img {
   background-color: #fff;
   margin-bottom: 65px;
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   font-size: 18px;
 }
@@ -140,7 +142,7 @@ img {
   margin: 70px 0 45px 0;
   font-size: 2.3rem;
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 .stand-out p {
   width: 88%;
@@ -157,7 +159,101 @@ img {
   background-color: #fff;
   margin-bottom: 65px;
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   font-size: 18px;
+}
+
+/* Product component */
+.product-bg-graphic {
+  background-image: url("/images/mobile/image-graphic-design.jpg");
+  background-position: top;
+  background-size: contain;
+  height: 600px;
+  position: relative;
+  text-align: center;
+}
+
+.product-bg-graphic div {
+  position: absolute;
+  top: 65%;
+}
+.product-bg-graphic h1 {
+  color: hsl(167, 40%, 24%);
+  padding-bottom: 45px;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+.product-bg-graphic p {
+  width: 90%;
+  margin: auto;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.product-bg-photo {
+  background-image: url("/images/mobile/image-photography.jpg");
+  background-position: top;
+  background-size: contain;
+  height: 600px;
+  position: relative;
+  text-align: center;
+}
+
+.product-bg-photo div {
+  position: absolute;
+  top: 65%;
+}
+.product-bg-photo h1 {
+  color: hsl(198, 62%, 26%);
+  padding-bottom: 45px;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+.product-bg-photo p {
+  width: 90%;
+  margin: auto;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+/* Testimonial component */
+.testimonials {
+  padding-top: 65px;
+  text-align: center;
+}
+.testimonials h1 {
+  text-transform: uppercase;
+  padding-bottom: 70px;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: hsl(210, 4%, 67%);
+}
+.testimonials img {
+  width: 20%;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.testimonials p {
+  width: 90%;
+  margin: auto;
+  font-family: 'Barlow', sans-serif; 
+  line-height: 25px;
+  color: hsl(232, 10%, 55%);
+  margin-bottom: 35px;
+}
+.testimonials h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  padding-bottom: .5em; 
+}
+.testimonials .position {
+  font-family: 'Barlow', sans-serif; 
+  font-size: 14px; 
+  color: rgb(166, 165, 163);
+  margin-bottom: 65px;
 }
