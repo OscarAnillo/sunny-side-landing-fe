@@ -4,7 +4,7 @@ export default function Footer(){
     return (
         <footer>
             <div>
-                <h1>SunnySide</h1>
+                <h1>sunnyside</h1>
                 <div className='footer-row'>
                     <p>About</p>
                     <p>Services</p>

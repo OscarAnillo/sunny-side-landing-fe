@@ -19,10 +19,10 @@ export default function NavBar(){
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/services">Services</Link></li>
                         <li><Link href="/projects">Projects</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li className='contact'><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <div onClick={clickHandler}>
+                <div onClick={clickHandler} className='menu'>
                     <img src="/images/icon-hamburger.svg"alt ="" />
                 </div>
                 {showMenu && 
