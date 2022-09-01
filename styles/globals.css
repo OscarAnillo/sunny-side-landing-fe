@@ -108,7 +108,6 @@ img {
 }
 .transform h1{
   margin: 70px 0 45px 0;
-  text-align: center;
   font-size: 2.3rem;
   font-family: 'Fraunces', serif;
   font-weight: 700;
@@ -125,6 +124,36 @@ img {
 .transform button {
   border: none;
   border-bottom: 3px solid hsl(51, 100%, 49%);
+  background-color: #fff;
+  margin-bottom: 65px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* Stand out Component */
+.stand-out {
+  text-align: center;
+}
+.stand-out h1{
+  margin: 70px 0 45px 0;
+  font-size: 2.3rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.stand-out p {
+  width: 88%;
+  margin: auto;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: hsl(210, 4%, 67%);
+  padding-bottom: 50px;
+}
+.stand-out button {
+  border: none;
+  border-bottom: 3px solid hsl(7, 99%, 70%);
   background-color: #fff;
   margin-bottom: 65px;
   font-family: 'Fraunces', serif;
