@@ -265,3 +265,33 @@ img {
   justify-content: space-between;
   flex-direction: row;
 }
+
+/* Footer */
+footer {
+  background-color: rgb(144, 212, 197);
+  text-align: center;
+  padding-top: 70px;
+}
+footer h1 {
+  margin-bottom: 55px;
+  color: rgb(45, 118, 101);
+}
+.footer-row {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-row p {
+  color: rgb(45, 118, 101);
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 80px;
+}
+.socials {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(45, 118, 101);
+  padding-bottom: 80px;
+}
