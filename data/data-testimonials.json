@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Emily R.",
+        "legend": "We put our trust in sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+        "position":"Marketing Director",
+        "avatar":"/images/image-emily.jpg"
+    },
+    {
+        "name": "Thomas S.",
+        "legend": "Sunnysides's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience",
+        "position":"Chief Operating Officer",
+        "avatar":"/images/image-thomas.jpg"
+    },
+    {
+        "name": "Jennie F.",
+        "legend": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+        "position":"Business Owner",
+        "avatar":"/images/image-jennie.jpg"
+    }
+]
