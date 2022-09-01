@@ -1,6 +1,6 @@
 export default function Product(){
     return (
-        <div>
+        <div className="product">
             <div className="product-bg-graphic">
                 <div>
                     <h1>Graphic Design</h1>

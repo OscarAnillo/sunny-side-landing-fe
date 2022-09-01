@@ -373,10 +373,11 @@ footer h1 {
    flex-direction: row-reverse;
 }
 .transform-desktop div {
-  width: 50%;
+  width: 100%;
 }
 .transform-desktop div img {
   height: 500px;
+  object-fit: none;
 }
 
 
@@ -391,70 +392,41 @@ footer h1 {
   justify-content: space-between;
 }
 .stand-out div {
-  width: 50%;
+  width: 100%;
 }
 .stand-out div img {
   height: 500px;
+  object-fit: none;
 }
 .stand-out h1 {
   font-size: 2.5rem;
 }
 
 /* Product component */
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product div {
+  width: 100%;
+}
 .product-bg-graphic {
-  background-image: url("/images/mobile/image-graphic-design.jpg");
-  background-position: top;
-  background-size: cover;
-  height: 600px;
-  position: relative;
-  text-align: center;
+  background-image: url("/images/desktop/image-graphic-design.jpg");
 }
 
 .product-bg-graphic div {
   position: absolute;
-  top: 65%;
-}
-.product-bg-graphic h1 {
-  color: hsl(167, 40%, 24%);
-  padding-bottom: 45px;
-  font-family: 'Fraunces', serif;
-  font-weight: 900;
-}
-.product-bg-graphic p {
-  width: 90%;
-  margin: auto;
-  color: hsl(167, 40%, 24%);
-  font-family: 'Barlow', sans-serif;
-  font-size: 1rem;
-  line-height: 25px;
+  top: 60%;
 }
 
 .product-bg-photo {
-  background-image: url("/images/mobile/image-photography.jpg");
-  background-position: top;
-  background-size: cover;
-  height: 600px;
-  position: relative;
-  text-align: center;
+  background-image: url("/images/desktop/image-photography.jpg");
 }
 
 .product-bg-photo div {
   position: absolute;
-  top: 65%;
-}
-.product-bg-photo h1 {
-  color: hsl(198, 62%, 26%);
-  padding-bottom: 45px;
-  font-family: 'Fraunces', serif;
-  font-weight: 900;
-}
-.product-bg-photo p {
-  width: 90%;
-  margin: auto;
-  color: hsl(198, 62%, 26%);
-  font-family: 'Barlow', sans-serif;
-  font-size: 1rem;
-  line-height: 25px;
+  top: 60%;
 }
 
 /* Testimonial component */
@@ -462,36 +434,20 @@ footer h1 {
   padding-top: 65px;
   text-align: center;
 }
+.testimonial-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .testimonials h1 {
-  text-transform: uppercase;
-  padding-bottom: 70px;
-  font-size: 1rem;
-  letter-spacing: 5px;
-  color: hsl(210, 4%, 67%);
+  font-size: 1.5rem;
 }
 .testimonials img {
-  width: 20%;
-  border-radius: 50px;
-  margin-bottom: 30px;
+  width: 25%;
+  border-radius: 100px;
 }
 .testimonials p {
-  width: 90%;
-  margin: auto;
-  font-family: 'Barlow', sans-serif; 
-  line-height: 25px;
-  color: hsl(232, 10%, 55%);
-  margin-bottom: 35px;
-}
-.testimonials h3 {
-  font-family: 'Fraunces', serif;
-  font-weight: 900;
-  padding-bottom: .5em; 
-}
-.testimonials .position {
-  font-family: 'Barlow', sans-serif; 
-  font-size: 14px; 
-  color: rgb(166, 165, 163);
-  margin-bottom: 65px;
+  font-size: 14px;
 }
 
 /* Images Component */
