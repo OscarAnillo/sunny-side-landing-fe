@@ -83,7 +83,8 @@ img {
 .bg-hero {
   background-image: url('/images/mobile/image-header.jpg');
   background-position: center bottom;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 530px;
   z-index: 1;
 }
@@ -109,7 +110,8 @@ img {
   text-align: center;
 }
 .transform h1{
-  margin: 70px 0 45px 0;
+  width: 90%;
+  margin: 70px auto 45px auto;
   font-size: 2.3rem;
   font-family: 'Fraunces', serif;
   font-weight: 900;
@@ -138,8 +140,8 @@ img {
 .stand-out {
   text-align: center;
 }
-.stand-out h1{
-  margin: 70px 0 45px 0;
+.stand-out h1 {
+  margin: 70px auto 45px auto;
   font-size: 2.3rem;
   font-family: 'Fraunces', serif;
   font-weight: 900;
@@ -168,7 +170,7 @@ img {
 .product-bg-graphic {
   background-image: url("/images/mobile/image-graphic-design.jpg");
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   height: 600px;
   position: relative;
   text-align: center;
@@ -196,7 +198,7 @@ img {
 .product-bg-photo {
   background-image: url("/images/mobile/image-photography.jpg");
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   height: 600px;
   position: relative;
   text-align: center;
