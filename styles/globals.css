@@ -257,3 +257,11 @@ img {
   color: rgb(166, 165, 163);
   margin-bottom: 65px;
 }
+
+/* Images Component */
+.images-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}

@@ -1,10 +1,11 @@
 import Head from 'next/head';
-import HeroComponent from '../components/hero-component';
-import Images from '../components/images-component';
 import NavBar from '../components/navBar-component';
+import HeroComponent from '../components/hero-component';
+import Transform from '../components/transform';
 import Product from '../components/product';
 import Testimonials from '../components/testimonials';
-import Transform from '../components/transform';
+import Images from '../components/images-component';
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
          <Testimonials />
          <Images />
       </main>    
+        <Footer />
     </div>
   )
 }
