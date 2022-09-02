@@ -8,7 +8,7 @@ export default function Product(){
 
     useEffect(() => {
         gsap.from(".product-bg-graphic, .product-bg-photo", {
-          y: "200",
+          y: "40",
           duration: 1,
           opacity: 0,
           scrollTrigger: {

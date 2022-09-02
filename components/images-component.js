@@ -7,15 +7,14 @@ export default function Images(){
 
     useEffect(() => {
         gsap.from(".desk-img", {
-          stagger: 0.3,
+          stagger: 0.2,
           y: 100,
-          scale: 1.5,
-          duration: 2,
+          duration: 1,
           opacity: 0,
-          ease: "power4.inOut",
+          ease: "bounce",
           scrollTrigger: {
             trigger: "#section-images",
-            toggleActions: "restart none none reset"
+            toggleActions: "restart none reverse reset"
           }
         });
       }, []);

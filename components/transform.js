@@ -8,21 +8,19 @@ export default function Transform(){
 
     useEffect(() => {
         gsap.from(".transform-desktop", {
-          x: "400",
-          duration: 1,
-          opacity: 0,
+            opacity: 0,
+          duration: 1.5,
           scrollTrigger: {
             trigger: ".transform-desktop",
-            toggleActions: "restart none reverse reset"
+            toggleActions: "restart none complete reset"
           }
         });
         gsap.from(".stand-out", {
-            x: "-400",
-            duration: 1,
+            duration: 1.5,
             opacity: 0,
             scrollTrigger: {
               trigger: ".stand-out",
-              toggleActions: "restart none reverse reset"
+              toggleActions: "restart none complete reset"
             }
           });
       }, []);

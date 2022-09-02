@@ -97,6 +97,7 @@ img {
   background-repeat: no-repeat;
   height: 530px;
   z-index: 1;
+  overflow: hidden;
 }
 
 .hero-title {
@@ -884,21 +885,9 @@ footer h1 {
   }
 
   /* Images Component */
-  .images-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+  .section-images {
+    overflow: hidden;
   }
-
-  .images-row div {
-    width: 50%;
-  }
-
-  .images-row div img {
-    width: 100%;
-  }
-
   .mobile-img {
     display: none;
   }
