@@ -1,18 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import {gsap} from 'gsap';
 
 export default function NavBar(){
-    const [ showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
 
     const clickHandler = () => {
         setShowMenu(!showMenu);
     }
 
+    useEffect(() => {
+        gsap.from('.menu', {x: -50, duration: 1})
+        gsap.to('.menu', {x: 0, duration: 1})
+        gsap.from('.sunny', {x: 50, duration: 1})
+        gsap.to('.sunny', {x: 0, duration: 1})
+        gsap.from('.desktop-nav', {x: -150, duration: 1})
+        gsap.to('.desktop-nav', {x: 0, duration: 1})
+    }, [])
+
     return (
         <section className='section-nav'>
             <nav className='nav-row'>
                 <div>
-                    <img src="/images/logo.svg" alt="" />
+                    <Link href='/'><img src="/images/logo.svg" alt="" className='sunny'/></Link>
                 </div>
                 <div className='desktop-nav'>
                     <ul>
@@ -23,7 +33,7 @@ export default function NavBar(){
                     </ul>
                 </div>
                 <div onClick={clickHandler} className='menu'>
-                    <img src="/images/icon-hamburger.svg"alt ="" />
+                    {!showMenu ? <img src="/images/icon-hamburger.svg"alt ="" /> : <img src="/images/icon-close-menu.svg" alt ="" className='close' />}
                 </div>
                 {showMenu && 
                 <div className='mobile-nav'>
