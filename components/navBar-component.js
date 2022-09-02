@@ -12,7 +12,7 @@ export default function NavBar(){
         <section className='section-nav'>
             <nav className='nav-row'>
                 <div>
-                    <img src="/images/logo.svg" alt="" />
+                    <Link href='/'><img src="/images/logo.svg" alt="" /></Link>
                 </div>
                 <div className='desktop-nav'>
                     <ul>
