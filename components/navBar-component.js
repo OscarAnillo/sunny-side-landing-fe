@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import {gsap} from 'gsap';
 
 export default function NavBar(){
     const [showMenu, setShowMenu] = useState(false);
@@ -8,11 +9,20 @@ export default function NavBar(){
         setShowMenu(!showMenu);
     }
 
+    useEffect(() => {
+        gsap.from('.menu', {x: -50, duration: 1})
+        gsap.to('.menu', {x: 0, duration: 1})
+        gsap.from('.sunny', {x: 50, duration: 1})
+        gsap.to('.sunny', {x: 0, duration: 1})
+        gsap.from('.desktop-nav', {x: -150, duration: 1})
+        gsap.to('.desktop-nav', {x: 0, duration: 1})
+    }, [])
+
     return (
         <section className='section-nav'>
             <nav className='nav-row'>
                 <div>
-                    <Link href='/'><img src="/images/logo.svg" alt="" /></Link>
+                    <Link href='/'><img src="/images/logo.svg" alt="" className='sunny'/></Link>
                 </div>
                 <div className='desktop-nav'>
                     <ul>
