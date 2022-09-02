@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function NavBar(){
-    const [ showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
 
     const clickHandler = () => {
         setShowMenu(!showMenu);
@@ -23,7 +23,7 @@ export default function NavBar(){
                     </ul>
                 </div>
                 <div onClick={clickHandler} className='menu'>
-                    <img src="/images/icon-hamburger.svg"alt ="" />
+                    {!showMenu ? <img src="/images/icon-hamburger.svg"alt ="" /> : <img src="/images/icon-close-menu.svg" alt ="" className='close' />}
                 </div>
                 {showMenu && 
                 <div className='mobile-nav'>
